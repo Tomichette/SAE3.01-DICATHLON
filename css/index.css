@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-.burger {
+.bar_nav {
     width: 95%;
     height: 10%;
     display: flex;
@@ -18,14 +18,88 @@ body {
     margin-top: 2%;
 }
 
-.img_logo {
+.logo {
     width: 20%;
     display: flex;
 }
 
-.img_burger {
+.img_logo {
+    width: 90%;
+    display: flex;
+}
+
+.nav {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panier1 {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.panier1 .text {
     height: 90%;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+.panier1 .text .p1 {
+    font-size: 25rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.panier1 .text .p2 {
+    font-size: 15rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-panier {
+    width: 80%;
+    display: flex;
+}
+
+.profil {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil .text {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;margin-right: 10%;
+}
+
+.profil .text .p1 {
+    font-size: 25rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profil .text .p2 {
+    font-size: 15rem;
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-profil {
+    height: 80%;
     display: flex;
 }
 
@@ -92,20 +166,23 @@ h1 {
 }
 
 .text p1 {
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
 .text p2 {
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
 .text p3 {
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     background-color: orange;
-    width: 50%;
+    width: 40%;
 }
 
 .bouton_panier {
@@ -115,5 +192,9 @@ h1 {
     flex-direction: column;
     justify-content: start;
     align-items: flex-end;
-    margin-top: 2.5%;
+}
+
+.bouton_panier .panier2 {
+    width: 40%;
+    display: flex;
 }

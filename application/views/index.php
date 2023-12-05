@@ -3,15 +3,37 @@
 <head>
     <link rel="shortcut icon" href="" type="img">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="<?php echo(base_url());?>css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boutique Dicathlon</title>
 </head>
 <body>
-    <div class="burger">
-        <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
-        <img class="img_burger" src="<?php echo(base_url());?>img/burger.png" alt="burger de recherche"/>
+    <div class="bar_nav">
+
+        <div class="logo">
+            <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
+        </div>
+
+        <div class="nav">
+            
+            <div class="panier1">
+                <div class="text">
+                    <p1>Votre</p1>
+                    <p2>panier</p2>
+                </div>
+                <img class="icon_panier" src="<?php echo(base_url());?>img/icon-panier.png" alt="icon du panier"/>
+            </div>
+            
+            <div class="profil">
+                <div class="text">
+                    <p1>Bonjour</p1>
+                    <p2>...</p2>
+                </div>
+                <img class="icon_profil" src="<?php echo(base_url());?>img/icon-profil.png" alt="icone du profil"/>
+            </div>
+
+        </div>
     </div>
 
     <div class="titre">
@@ -31,7 +53,7 @@
                     <p3>35€ par mois</p3>
                 </div>
                 <div class="bouton_panier">
-                    <img class="panier" src="<?php echo(base_url());?>img/panier.png" alt="bouton panier"/>
+                    <img class="panier2" src="<?php echo(base_url());?>img/panier.png" alt="bouton panier"/>
                 </div>
             </div>
         </div>
