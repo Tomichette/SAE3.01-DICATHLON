@@ -18,7 +18,7 @@
         <div class="nav">
             
             <div class="panier1">
-                <div class="text">
+                <div class="text_panier">
                     <p1>Votre</p1>
                     <p2>panier</p2>
                 </div>
@@ -26,9 +26,9 @@
             </div>
             
             <div class="profil">
-                <div class="text">
+                <div class="text_profil">
                     <p1>Bonjour</p1>
-                    <p2>...</p2>
+                    <p2>Jacques</p2>
                 </div>
                 <img class="icon_profil" src="<?php echo(base_url());?>img/icon-profil.png" alt="icone du profil"/>
             </div>
