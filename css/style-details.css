@@ -27,7 +27,10 @@ body {
                 width: 40em;
             }
         .images-produit-container-bas{
-
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            height: 15em;
         }
             .img-produit-2{
                 width: 15em;
