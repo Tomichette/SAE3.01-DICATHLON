@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="<?php echo(base_url());?>css/style-details.css">
 </head>
 <body>
+    <?php require_once('nav.php'); ?>
     <div class="produit-container">
         <div class="img-container">
             <div class="images-produit-container-tete">
