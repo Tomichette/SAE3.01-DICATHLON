@@ -11,9 +11,6 @@
 <div id="contenu">
 <?php $this->load->view($content);?>
 </div><!-- # contenu -->
-<div id="pied">
-<strong>&copy;2023</strong>
-</div><!--#pied-->
 </div><!--#global-->
 </body>
 </html>

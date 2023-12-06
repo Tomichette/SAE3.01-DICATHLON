@@ -17,21 +17,21 @@
 
         <div class="nav">
             
-            <div class="panier1">
+            <a href="#" class="panier1">
                 <div class="text_panier">
                     <p1>Votre</p1>
                     <p2>panier</p2>
                 </div>
                 <img class="icon_panier" src="<?php echo(base_url());?>img/icon-panier.png" alt="icon du panier"/>
-            </div>
+            </a>
             
-            <div class="profil">
+            <a href="#" class="profil">
                 <div class="text_profil">
                     <p1>Bonjour</p1>
                     <p2>Jacques</p2>
                 </div>
                 <img class="icon_profil" src="<?php echo(base_url());?>img/icon-profil.png" alt="icone du profil"/>
-            </div>
+            </a>
 
         </div>
     </div>
@@ -42,7 +42,7 @@
 
     <div class="box_boutique">
 
-        <div class="item">
+        <a href="index.php/page/produit" class="item">
             <div class="image">
                 <img class="velo_decath" src="<?php echo(base_url());?>img/velo_decath.png" alt="image velo decathlon"/>
             </div>
@@ -56,7 +56,7 @@
                     <img class="panier2" src="<?php echo(base_url());?>img/panier.png" alt="bouton panier"/>
                 </div>
             </div>
-        </div>
+        </a>
 
     </div>
     
