@@ -9,5 +9,11 @@ class Page extends CI_Controller {
         $this->load->vars($data);
         $this->load->view('template');
     }
+
+    public function connexion(){
+    $data['content']="connexion";
+    $this->load->vars($data);
+    $this->load->view('template');
+}
 }
 ?>

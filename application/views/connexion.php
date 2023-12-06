@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <link rel="shortcut icon" href="" type="img">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/index.css">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique Dicathlon</title>
+    <title>Page de Connexion</title>
+    <link rel="stylesheet" href="<?php echo(base_url());?>css/connexion.css">
 </head>
 <body>
-    <nav class="bar_nav">
+<nav class="bar_nav">
         <div class="logo">
-            <a href="index.php">
+            <a href="../../index.php">
                 <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
             </a>
         </div>
@@ -33,29 +31,23 @@
             </a>
         </div>
     </nav>
-    <div class="titre">
-        <h1>Nos appareil de fitness en location</h1>
-    </div>
-
-    <div class="box_boutique">
-
-        <a href="index.php/page/produit" class="item">
-            <div class="image">
-                <img class="velo_decath" src="<?php echo(base_url());?>img/velo_decath.png" alt="image velo decathlon"/>
-            </div>
-            <div class="description">
-                <div class="text">
-                    <p1>VÉLO ELLIPTIQUE EL540</p1>
-                    <p2>CONNECTÉ</p2>
-                    <p3>35€ par mois</p3>
+    <div class="container">
+        <div class="login-container">
+            <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="btn-connexion"/>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Nom d'utilisateur:</label>
+                    <input type="text" id="username" name="username" required>
                 </div>
-                <div class="bouton_panier">
-                    <img class="panier2" src="<?php echo(base_url());?>img/panier.png" alt="bouton panier"/>
+                <div class="form-group">
+                    <label for="password">Mot de passe:</label>
+                    <input type="password" id="password" name="password" required>
                 </div>
-            </div>
-        </a>
-
-    </div>
-    
+                <div class="form-group">
+                    <button type="submit">Se connecter</button>
+                </div>
+            </form>
+        </div>
+    <div>
 </body>
 </html>

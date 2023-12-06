@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212121;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bar_nav {
+    width: 100%;
+    height: 10%;
+    background-color: #0f0f0f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    margin-left: 2%;
+    width: 20%;
+    display: flex;
+}
+
+.img_logo {
+    width: 90%;
+    display: flex;
+}
+
+.nav {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panier1 {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_panier {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
+.text_panier p1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_panier p2 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon_panier {
+    width: 30%;
+    display: flex;
+}
+
+.profil {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_profil {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;margin-right: 10%;
+}
+
+.text_profil p1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text_profil p2 {
+    font-size: 1rem;
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon_profil {
+    width: 30%;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
