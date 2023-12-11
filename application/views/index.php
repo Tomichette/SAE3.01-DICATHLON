@@ -39,7 +39,7 @@
 
     <div class="box_boutique">
 
-        <a href="index.php/page/produit" class="item">
+        <a href="#" class="item">
             <div class="image">
                 <img class="velo_decath" src="<?php echo(base_url());?>img/velo_decath.png" alt="image velo decathlon"/>
             </div>
