@@ -11,7 +11,7 @@
 <body>
     <nav class="bar_nav">
         <div class="logo">
-            <a href="index.php">
+            <a href="<?php echo(base_url());?>index.php">
                 <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
             </a>
         </div>

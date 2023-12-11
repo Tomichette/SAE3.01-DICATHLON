@@ -9,7 +9,7 @@
 <body>
 <nav class="bar_nav">
         <div class="logo">
-            <a href="index.php">
+            <a href="<?php echo(base_url());?>index.php">
                 <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
             </a>
         </div>
@@ -54,7 +54,7 @@
                     <li>Vivre une expérience connectée avec l'application gratuite E connected qui vous accompagne avec des programmes d'entrainement pour vous aider à progresser pour atteindre vos objectifs.</li>
                     <li>Un SAV réactif en cas de pépin : Decathlon et Domyos portent une attention toute particulière au suivi de nos produits. Nous gérons nous même le service après-vente de nos produits et nous assurons la disponibilité des pièces détachées.</li>
                 </ul>
-                <img class="img_logo" src="<?php echo(base_url());?>img/btn-louer.png" alt="btn louer"/>
+                <a href="#"> <img class="img_logo" src="<?php echo(base_url());?>img/btn-louer.png" alt="btn louer"/> </a>
             </div>
         </div>
     </div>
