@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>details</title>
-    <link rel="stylesheet" href="<?php echo(base_url());?>css/style-details.css">
+    <link rel="stylesheet" href="<?php echo(base_url());?>css/style-produit.css">
 </head>
 <body>
     <nav class="bar_nav">
@@ -32,7 +32,7 @@
         </div>
     </nav>
     <div class="produit-container">
-        <div class="img-container">
+        <div class="box_produit">
             <div class="images-produit-container-tete">
                 <img class="img-produit-1" src="<?php echo(base_url());?>img/velo-img1.jpg" alt="image produit"/>
             </div>
@@ -41,11 +41,11 @@
                 <img class="img-produit-3" src="<?php echo(base_url());?>img/velo-img3.jpg" alt="image produit"/>
                 <img class="img-produit-4" src="<?php echo(base_url());?>img/velo-img4.jpg" alt="image produit"/>
             </div>
-        <div>
+        </div>
         <div class="info-produit">
             <div class="titre-produit">
                 <h1>VÉLO ELLIPTIQUE EL540 CONNECTÉ</h1>
-                <h2>35,00 €/mois</h2>
+                <h2>35,00.€/mois</h2>
             </div>
             <div class="texte">
                 <a>L'abonnement de ce vélo elliptique comprend :</a>
@@ -54,7 +54,7 @@
                     <li>Vivre une expérience connectée avec l'application gratuite E connected qui vous accompagne avec des programmes d'entrainement pour vous aider à progresser pour atteindre vos objectifs.</li>
                     <li>Un SAV réactif en cas de pépin : Decathlon et Domyos portent une attention toute particulière au suivi de nos produits. Nous gérons nous même le service après-vente de nos produits et nous assurons la disponibilité des pièces détachées.</li>
                 </ul>
-                <img class="img_logo" src="<?php echo(base_url());?>img/btn-louer" alt="btn louer"/>
+                <img class="img_logo" src="<?php echo(base_url());?>img/btn-louer.png" alt="btn louer"/>
             </div>
         </div>
     </div>
