@@ -1,9 +1,12 @@
 body {  
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style: none;
+    width: 100%;
+    height: 100%;
     background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
 }
 
@@ -20,7 +23,8 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .logo {

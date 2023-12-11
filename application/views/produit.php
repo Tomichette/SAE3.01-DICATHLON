@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="<?php echo(base_url());?>css/style-produit.css">
 </head>
 <body>
-    <nav class="bar_nav">
+<nav class="bar_nav">
         <div class="logo">
-            <a href="../../index.php">
+            <a href="index.php">
                 <img class="img_logo" src="<?php echo(base_url());?>img/Logo-Dicatlon.png" alt="image logo Dicathlon"/>
             </a>
         </div>
