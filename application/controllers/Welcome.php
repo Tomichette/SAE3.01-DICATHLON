@@ -23,10 +23,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['produit']=$this->base_produit->get_all_products();
+		$data['produit']=$this->base_produit->get_all_produit();
         $data['content']="index";
         $this->load->vars($data);
         $this->load->view('template');
 	}
 
 }
+?>

@@ -5,7 +5,7 @@ class base_produit extends CI_Model{
         $this->load->database();
     }
 
-    public function get_all_products()
+    public function get_all_produit()
     {
         $query = $this->db->get('produit');
         return $query->result_array();
