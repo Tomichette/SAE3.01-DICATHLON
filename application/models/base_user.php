@@ -5,10 +5,10 @@ class base_produit extends CI_Model{
         $this->load->database();
     }
 
-    public function get_all_produit()
+    public function get_all_users()
     {
-        $query = $this->db->get('produit');
-        return $query->result();
+        $query = $this->db->get('users');
+        return $query->result
     }
-}
+
 ?>

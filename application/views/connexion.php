@@ -44,7 +44,7 @@
                     <input type="password" id="password" name="password" required>
                 </div>
                 <div class="form-group">
-                    <button type="submit">Se connecter</button>
+                    <button  type="submit">Se connecter</button>
                 </div>
             </form>
         </div>
