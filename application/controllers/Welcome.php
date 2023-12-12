@@ -2,7 +2,10 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-
+	public function __construct(){
+        parent::__construct();
+        $this->load->model('base_produit');
+    }
 	/**
 	 * Index Page for this controller.
 	 *
@@ -20,6 +23,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		$data['produit']=$this->base_produit->get_all_products();
+        $data['content']="index";
+        $this->load->vars($data);
+        $this->load->view('template');
 	}
+
 }

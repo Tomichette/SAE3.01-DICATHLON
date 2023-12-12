@@ -38,22 +38,28 @@
     </div>
 
     <div class="box_boutique">
-
-        <a href="#" class="item">
-            <div class="image">
-                <img class="velo_decath" src="<?php echo(base_url());?>img/velo_decath.png" alt="image velo decathlon"/>
+    <?php
+    
+    foreach($produit as $element) {
+        echo("
+        <a href='#' class='item'>
+            <div class='image'>
+                <img class='velo_decath' src='<?php echo(base_url());?>img/velo_decath.png' alt='image velo decathlon'/>
             </div>
-            <div class="description">
-                <div class="text">
-                    <p1>VÉLO ELLIPTIQUE EL540</p1>
+            <div class='description'>
+                <div class='text'>
+                    <p1>".$element->type."</p1>
                     <p2>CONNECTÉ</p2>
                     <p3>35€ par mois</p3>
                 </div>
-                <div class="bouton_panier">
-                    <img class="panier2" src="<?php echo(base_url());?>img/panier.png" alt="bouton panier"/>
+                <div class='bouton_panier'>
+                    <img class='panier2' src=<?php echo(base_url());?>img/panier.png' alt='bouton panier'/>
                 </div>
             </div>
         </a>
+        ");
+    }
+    ?>
 
     </div>
     

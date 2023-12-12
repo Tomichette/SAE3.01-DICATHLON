@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 class Page extends CI_Controller {
-    public function construct(){
-    parent::construct();
+    public function __construct(){
+    parent::__construct();
 
 }
     public function produit(){
@@ -11,6 +11,7 @@ class Page extends CI_Controller {
     }
 
     public function connexion(){
+
     $data['content']="connexion";
     $this->load->vars($data);
     $this->load->view('template');
